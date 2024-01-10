@@ -26,5 +26,7 @@
         <Label x:Name="weatherLabel" Text="valor" Grid.Row="4" Grid.Column="1"></Label>
         <Label Text="Ciudad" Grid.Row="5" Grid.Column="0"></Label>
         <Label x:Name="cityLabel" Text="valor" Grid.Row="5" Grid.Column="1"></Label>
+        <Label Text="Country" Grid.Row="6" Grid.Column="0"></Label>
+        <Label x:Name="countryLabel" Text="valor" Grid.Row="6" Grid.Column="1"></Label>
     </Grid>
 </ContentPage>

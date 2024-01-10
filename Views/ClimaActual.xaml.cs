@@ -30,6 +30,7 @@ public partial class ClimaActual : ContentPage
 				var clima = JsonConvert.DeserializeObject<Rootobject>(json);
 				weatherLabel.Text = clima.weather[0].main;
 				cityLabel.Text = clima.name;
+				countryLabel.Text = clima.sys.country;
 			}
 		}
     }
