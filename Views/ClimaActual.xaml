@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ramos_ApiPublica.Views.ClimaActual"
+             Title="ClimaActual">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"> </RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Text="Latitud" Grid.Column="0" Grid.Row="0"></Label>
+        <Label Text="Longitud" Grid.Column="1" Grid.Row="0"></Label>
+        <Entry Grid.Column="0" Grid.Row="1"></Entry>
+        <Entry Grid.Column="1" Grid.Row="1"></Entry>
+        <Button Text="Consultar" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Clicked="OnConsultarClicked"></Button>
+        <Label Text="Estado del clima" Grid.Row="4" Grid.Column="0"></Label>
+        <Label Text="valor" Grid.Row="4" Grid.Column="1"></Label>
+    </Grid>
+</ContentPage>
