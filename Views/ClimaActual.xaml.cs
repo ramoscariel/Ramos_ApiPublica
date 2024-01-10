@@ -29,6 +29,7 @@ public partial class ClimaActual : ContentPage
 				var json = await response.Content.ReadAsStringAsync();
 				var clima = JsonConvert.DeserializeObject<Rootobject>(json);
 				weatherLabel.Text = clima.weather[0].main;
+				cityLabel.Text = clima.name;
 			}
 		}
     }

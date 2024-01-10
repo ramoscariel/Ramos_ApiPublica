@@ -24,5 +24,7 @@
         <Button Text="Consultar" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Clicked="OnConsultarClicked"></Button>
         <Label Text="Estado del clima" Grid.Row="4" Grid.Column="0"></Label>
         <Label x:Name="weatherLabel" Text="valor" Grid.Row="4" Grid.Column="1"></Label>
+        <Label Text="Ciudad" Grid.Row="5" Grid.Column="0"></Label>
+        <Label x:Name="cityLabel" Text="valor" Grid.Row="5" Grid.Column="1"></Label>
     </Grid>
 </ContentPage>
