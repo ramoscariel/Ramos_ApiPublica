@@ -19,10 +19,10 @@
         </Grid.ColumnDefinitions>
         <Label Text="Latitud" Grid.Column="0" Grid.Row="0"></Label>
         <Label Text="Longitud" Grid.Column="1" Grid.Row="0"></Label>
-        <Entry Grid.Column="0" Grid.Row="1"></Entry>
-        <Entry Grid.Column="1" Grid.Row="1"></Entry>
+        <Entry x:Name="lat" Grid.Column="0" Grid.Row="1"></Entry>
+        <Entry x:Name="lon" Grid.Column="1" Grid.Row="1"></Entry>
         <Button Text="Consultar" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Clicked="OnConsultarClicked"></Button>
         <Label Text="Estado del clima" Grid.Row="4" Grid.Column="0"></Label>
-        <Label Text="valor" Grid.Row="4" Grid.Column="1"></Label>
+        <Label x:Name="weatherLabel" Text="valor" Grid.Row="4" Grid.Column="1"></Label>
     </Grid>
 </ContentPage>
